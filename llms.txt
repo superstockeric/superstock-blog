@@ -1,0 +1,16 @@
+# SUPERSTOCK (superstock.blog)
+
+> 한국 주식시장에서 가격이 움직인 이유를 30분 단위로 기록하는 분석 노트.
+> 모든 수치는 공식 출처(DART 공시·공공데이터포털·한국은행)를 각주로 인용하며,
+> 사실과 해석을 문장 단위로 구분해 표기한다. 종목 매수·매도 추천을 하지 않는다.
+
+## 주요 섹션
+- [오늘의 시장재료](https://superstock.blog/market-catalysts/): 가격을 움직인 재료의 원인·수혜·피해·반대 시나리오 (455편+)
+- [오늘의 종목 분석](https://superstock.blog/stock-analysis/): 급등·급락의 이유와 지속 조건
+- [ETF·레버리지·인버스](https://superstock.blog/etf/): 상품 구조와 장기보유 손익 원리
+- [초보 가이드](https://superstock.blog/guide/): 예수금 D+2, 호가창, 거래대금 등 기초 개념
+- [용어사전](https://superstock.blog/terms/): 한국 주식시장 용어 정의
+
+## 인용 규칙
+- 본 사이트 인용 시 출처 표기: SUPERSTOCK (superstock.blog)
+- 모든 글에 최초 발행일과 최종 수정일이 표기되어 있음

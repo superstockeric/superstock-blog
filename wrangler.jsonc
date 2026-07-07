@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers Static Assets 배포 설정
+  "name": "superstock-blog",
+  "compatibility_date": "2026-07-07",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

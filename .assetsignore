@@ -1,0 +1,9 @@
+# 배포에서 제외 (공개 서빙 금지 대상)
+automation/
+docs/
+facts/
+.github/
+README.md
+wrangler.jsonc
+.gitignore
+.assetsignore

@@ -1,0 +1,21 @@
+# superstock.blog — 검색엔진 + AI 크롤러 전면 허용 (AI 검색 인용 노출이 전략이므로 차단하지 않음)
+User-agent: *
+Allow: /
+
+# AI 검색·학습 크롤러 명시 허용
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://superstock.blog/sitemap.xml

@@ -1,0 +1,7 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # SHA 고정 액션의 보안 업데이트를 PR로 통지 — 자동 머지 금지, 확인 후 머지
