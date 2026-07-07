@@ -2,6 +2,8 @@
 automation/
 docs/
 facts/
+content/
+posts/
 .github/
 README.md
 wrangler.jsonc

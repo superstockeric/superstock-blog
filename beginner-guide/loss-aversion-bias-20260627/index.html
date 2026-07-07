@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📌손실회피 편향: 왜 우리는 떨어지는 주식을 팔지 못할까 — SUPERSTOCK</title>
+<meta name="description" content="투자를 하다 보면 누구나 한 번쯤 겪는 문제가 있다. 사자마자 오르는 주식은 조금만 올라도 얼른 팔아 차익을 실현하고 싶지만, 반대로 매수 가격 아래로 떨어지는 주식은 좀처럼 손절하지 못하는 경험이다. 오늘은 투자자">
+<link rel="canonical" href="https://blog.superstockeric.workers.dev/beginner-guide/loss-aversion-bias-20260627/">
+<meta property="og:title" content="📌손실회피 편향: 왜 우리는 떨어지는 주식을 팔지 못할까 — SUPERSTOCK">
+<meta property="og:description" content="투자를 하다 보면 누구나 한 번쯤 겪는 문제가 있다. 사자마자 오르는 주식은 조금만 올라도 얼른 팔아 차익을 실현하고 싶지만, 반대로 매수 가격 아래로 떨어지는 주식은 좀처럼 손절하지 못하는 경험이다. 오늘은 투자자">
+<meta property="og:url" content="https://blog.superstockeric.workers.dev/beginner-guide/loss-aversion-bias-20260627/">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<meta property="og:type" content="article">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "📌손실회피 편향: 왜 우리는 떨어지는 주식을 팔지 못할까", "datePublished": "2026-06-27T22:30:57", "dateModified": "2026-07-06T10:23:19", "author": {"@type": "Organization", "name": "SUPERSTOCK"}, "publisher": {"@type": "Organization", "name": "SUPERSTOCK"}, "mainEntityOfPage": "https://blog.superstockeric.workers.dev/beginner-guide/loss-aversion-bias-20260627/", "inLanguage": "ko", "articleSection": "초보가 헷갈리는 것"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://blog.superstockeric.workers.dev/"}, {"@type": "ListItem", "position": 2, "name": "초보가 헷갈리는 것", "item": "https://blog.superstockeric.workers.dev/beginner-guide/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">SUPERSTOCK<span class="tick">▲</span></a>
+    <span class="brand-tag">가격이 움직인 이유를 기록한다</span>
+    <nav class="main-nav" aria-label="주요 카테고리"><a href="/market-catalysts/">시장재료</a><a href="/stock-analysis/">종목분석</a><a href="/theme-leaders/">테마·대장주</a><a href="/etf-leverage-inverse/">ETF</a><a href="/beginner-guide/">초보 가이드</a></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </div>
+</header>
+<main class="wrap article-wrap">
+  <article class="article" style="max-width:760px">
+    <p class="crumb"><a href="/">홈</a> › <a href="/beginner-guide/">초보가 헷갈리는 것</a></p>
+    <h1>📌손실회피 편향: 왜 우리는 떨어지는 주식을 팔지 못할까</h1>
+    <div class="a-meta"><span>2026-06-27 22:30</span><span>읽기 3분</span><span class="badge">초보가 헷갈리는 것</span></div>
+    <p>투자를 하다 보면 누구나 한 번쯤 겪는 문제가 있다. 사자마자 오르는 주식은 조금만 올라도 얼른 팔아 차익을 실현하고 싶지만, 반대로 매수 가격 아래로 떨어지는 주식은 좀처럼 손절하지 못하는 경험이다. 오늘은 투자자의 이런 감정적 행동을 지배하는 ‘손실회피 편향’을 정리해보자.</p>
+<p><b>한줄 포인트:</b> 사람들은 이득보다 손실에 2배 더 민감하게 반응한다. 손실회피 편향은 합리적인 투자 결정을 방해하는 강력한 심리적 요인이다.</p>
+<h2>전망이론: 손실은 이득보다 2배 크게 느껴진다</h2>
+<figure><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/enf_134701_pexels_sad_investor_regret.jpg" alt="" style="max-width:100%;height:auto"></figure>
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>개념</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>참조점 의존성</td>
+<td>가치 판단은 절대적인 기준이 아니라 현재 상태(참조점)에 따라 달라진다.</td>
+</tr>
+<tr>
+<td>민감도 감소</td>
+<td>이득과 손실 규모가 커질수록 추가적인 이득/손실에 대한 심리적 효과는 줄어든다.</td>
+</tr>
+<tr>
+<td><span style="color:#2563eb">손실회피</span></td>
+<td>동일한 크기의 이득보다 손실에서 느끼는 고통이 2배 이상 크다.</td>
+</tr>
+</tbody>
+</table>
+<h2>주식 투자에서 나타나는 손실회피 5가지 패턴</h2>
+<figure><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/enf_134656_pexels_declining_graph_red.jpg" alt="" style="max-width:100%;height:auto"></figure>
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>패턴</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>떨어지는 주식 덜 팔기</td>
+<td>손실을 확정하기 싫어 하락하는 주식을 계속 보유한다.</td>
+</tr>
+<tr>
+<td>오르는 주식 더 빨리 팔기</td>
+<td>이득을 확정하고 싶어 상승하는 주식을 조기에 매도한다.</td>
+</tr>
+<tr>
+<td>본전 심리</td>
+<td>손실 중인 종목이 매수가까지 오르기를 무한정 기다린다.</td>
+</tr>
+<tr>
+<td>비합리적 희망</td>
+<td>객관적 정보보다 ‘언젠가는 오를 것’이라는 막연한 기대에 의존한다.</td>
+</tr>
+<tr>
+<td>새로운 위험 회피</td>
+<td>과거 손실 경험 때문에 새로운 투자 기회를 놓친다.</td>
+</tr>
+</tbody>
+</table>
+<h2>손실회피 극복을 위한 실전 체크리스트</h2>
+<figure><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/enf_134649_pexels_loss_risk_fear.jpg" alt="" style="max-width:100%;height:auto"></figure>
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>체크리스트</th>
+<th>가이드</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>손익 기준점 재설정</td>
+<td>현재 가격을 새로운 기준점으로 삼아 객관적 판단을 시도한다.</td>
+</tr>
+<tr>
+<td>기계적 손절매 원칙</td>
+<td>미리 정한 기준에 도달하면 감정 없이 매도한다.</td>
+</tr>
+<tr>
+<td>투자 복기 습관화</td>
+<td>과거 투자 결정의 성공과 실패를 기록하고 분석한다.</td>
+</tr>
+<tr>
+<td><span style="color:#dc2626">수익 목표 설정</span></td>
+<td>과도한 욕심을 버리고 합리적인 수익 구간에서 매도한다.</td>
+</tr>
+<tr>
+<td>분산 투자</td>
+<td>개별 종목의 손실이 전체 포트폴리오에 미치는 영향을 희석한다.</td>
+</tr>
+</tbody>
+</table>
+<h2>리스크 및 반대 관점</h2>
+<table border="1" cellpadding="8" cellspacing="0">
+<thead>
+<tr>
+<th>관점</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시장 상황 고려</td>
+<td>때로는 일시적인 하락이 ‘진짜 손실’이 아닐 수 있다. 장기적 안목으로 접근해야 할 상황도 있다.</td>
+</tr>
+<tr>
+<td>정보 습득의 중요성</td>
+<td>손실회피를 극복하려다 정보 부족으로 섣부른 매매를 할 위험도 생각한다.</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ 이 글은 투자 심리 이해를 위한 교육 콘텐츠입니다. 모든 투자 결정은 본인 판단 하에 진행하세요.</p>
+<h2>마지막 체크포인트</h2>
+<p>손실회피 편향은 단순한 감정 문제가 아니라 계좌 관리 실패로 바로 이어집니다. 손실이 난 종목일수록 본전 심리가 커지기 때문에, 처음부터 매수 이유와 손절 기준을 따로 적어두지 않으면 판단이 더 늦어집니다.</p>
+<p>결국 중요한 건 오를지 내릴지 맞히는 능력보다, 틀렸을 때 얼마나 빨리 기준대로 행동하느냐입니다.</p>
+<h2>실전 대응 포인트</h2>
+<p>주가가 빠질수록 정보보다 감정이 판단을 대신하게 됩니다. 그래서 손실회피 편향을 줄이려면 매수 전에 비중 한도와 손절 조건을 먼저 적어두고, 하락 후에는 그 기준을 다시 확인하는 방식으로 행동을 기계화할 필요가 있습니다.</p>
+<p>결국 중요한 것은 좋은 종목을 찾는 능력만이 아니라, 틀렸을 때 손실을 관리하는 습관입니다.</p>
+<p>특히 본전 생각이 강해질수록 추가 매수나 물타기로 이어질 위험이 커집니다. 손실을 회복하고 싶은 마음이 강할수록 원래의 투자 가설이 여전히 유효한지부터 다시 따져봐야 하고, 그렇지 않다면 빠르게 정리하는 쪽이 장기적으로 계좌를 지키는 데 도움이 됩니다.</p>
+
+    <p class="disclaimer">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다.<br>최초 발행 2026-06-27 · 최종 수정 2026-07-06 · 작성 SUPERSTOCK 편집부</p>
+    <nav class="prevnext" aria-label="이전 다음 글"><a href="/market-catalysts/내가-산-주식과-사랑에-빠지는-이유는/"><span class="dir">← 이전 글</span>📌내가 산 주식과 사랑에 빠지는 이유는??</a><a href="/stock-analysis/skhynix-semiconductor-crash-20260626/" style="text-align:right"><span class="dir">다음 글 →</span>💾SK하이닉스 하루 9.5% 폭락, 반도체 슈퍼사이클 끝난 걸까?</a></nav>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div><strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
+    <a href="/market-catalysts/">전체 글</a></div>
+    <p class="fine">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다. © 2026 SUPERSTOCK</p>
+  </div>
+</footer>
+<script>
+document.getElementById("themeBtn").addEventListener("click",function(){var r=document.documentElement;
+var n=(r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark"?"light":"dark";
+r.dataset.theme=n;try{localStorage.setItem("theme",n);}catch(e){}});
+</script>
+</body>
+</html>

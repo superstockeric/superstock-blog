@@ -4,182 +4,56 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SUPERSTOCK — 가격이 움직인 이유를 기록한다</title>
-<meta name="description" content="뉴스 제목이 아니라 가격이 움직인 이유를 추적하는 주식 분석 노트. 시장재료·종목분석·테마 흐름을 30분 단위로 기록합니다.">
-<link rel="canonical" href="https://superstock.blog/">
-<meta property="og:type" content="website">
+<meta name="description" content="뉴스 제목이 아니라 가격이 움직인 이유를 추적하는 주식 분석 노트. 시장재료·종목분석·테마 흐름을 수시로 기록합니다.">
+<link rel="canonical" href="https://blog.superstockeric.workers.dev/">
 <meta property="og:title" content="SUPERSTOCK — 가격이 움직인 이유를 기록한다">
-<meta property="og:description" content="시장재료·종목분석·테마 흐름을 30분 단위로 기록하는 주식 분석 노트">
-<meta property="og:url" content="https://superstock.blog/">
+<meta property="og:description" content="뉴스 제목이 아니라 가격이 움직인 이유를 추적하는 주식 분석 노트. 시장재료·종목분석·테마 흐름을 수시로 기록합니다.">
+<meta property="og:url" content="https://blog.superstockeric.workers.dev/">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="css/style.css">
-<script>
-/* FOUC 방지: 저장된 테마를 렌더 전에 적용 (3줄, 블로킹 허용) */
-try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"SUPERSTOCK","url":"https://superstock.blog/","description":"가격이 움직인 이유를 기록하는 주식 분석 노트","inLanguage":"ko"}
-</script>
+<link rel="stylesheet" href="/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "SUPERSTOCK", "url": "https://blog.superstockeric.workers.dev/", "description": "가격이 움직인 이유를 기록하는 주식 분석 노트", "inLanguage": "ko"}</script>
 </head>
 <body>
-
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="index.html">SUPERSTOCK<span class="tick">▲</span></a>
+    <a class="brand" href="/">SUPERSTOCK<span class="tick">▲</span></a>
     <span class="brand-tag">가격이 움직인 이유를 기록한다</span>
-    <nav class="main-nav" aria-label="주요 카테고리">
-      <a href="category.html" aria-current="page">시장재료</a>
-      <a href="category.html">종목분석</a>
-      <a href="category.html">테마·대장주</a>
-      <a href="category.html">ETF</a>
-      <a href="category.html">초보 가이드</a>
-    </nav>
+    <nav class="main-nav" aria-label="주요 카테고리"><a href="/market-catalysts/">시장재료</a><a href="/stock-analysis/">종목분석</a><a href="/theme-leaders/">테마·대장주</a><a href="/etf-leverage-inverse/">ETF</a><a href="/beginner-guide/">초보 가이드</a></nav>
     <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
   </div>
 </header>
-
-<div class="tape" aria-label="주요 지수 현황">
-  <div class="tape-inner mono">
-    <span class="q"><span class="name">KOSPI</span> 3,412.55 <span class="up">▲ +0.84%</span></span>
-    <span class="q"><span class="name">KOSDAQ</span> 912.30 <span class="down">▼ -0.21%</span></span>
-    <span class="q"><span class="name">USD/KRW</span> 1,352.40 <span class="up">▲ +2.10</span></span>
-    <span class="q"><span class="name">WTI</span> 61.87 <span class="down">▼ -1.4%</span></span>
-    <span class="q"><span class="name">美 10Y</span> 4.12% <span class="up">▲ +3bp</span></span>
-    <span class="tape-note">07:30 KST 기준 · 지연 시세</span>
-  </div>
-</div>
-
 <main class="wrap">
-
-  <!-- 리드 + 와이어 -->
   <div class="home-grid">
     <article class="lead-card">
-      <p class="eyebrow">오늘의 리드 분석</p>
-      <h1><a href="post.html">ESS 수요가 커질 때, LG에너지솔루션 주가가 다시 주목받는 이유</a></h1>
-      <p class="deck">배터리주 반등론이 다시 나온 이유는 전기차가 아니라 전력망이다. AI 데이터센터가 끌어올린 ESS 발주가 2차전지 밸류체인의 어디부터 채우는지, 돈의 흐름 순서로 정리했다.</p>
-      <div class="lead-meta">
-        <span class="badge">시장재료</span>
-        <span>2026. 7. 7. 07:00</span>
-        <span>읽기 6분</span>
-      </div>
-      <div class="lead-points">
-        <h2>이 글의 체크포인트</h2>
-        <ul>
-          <li><span class="k">수주</span>북미 ESS 신규 발주 공시 — 규모보다 마진 조건</li>
-          <li><span class="k">전력</span>AI데이터센터 2.4GW 증설과 변압기·ESS 동반 수혜 구간</li>
-          <li><span class="k">반대</span>리튬 가격 반등 시 셀 메이커 마진 훼손 시나리오</li>
-        </ul>
-      </div>
+      <p class="eyebrow">최신 분석</p>
+      <h1><a href="/visitor-request/auto-20260707082422/">🔋2차전지, 실적 개선만 기다리면 늦을까?</a></h1>
+      <p class="deck">질문 원문방문자 요청 원문 제목: Lg에너지솔루션 등 2차전지 관련주 실적 개선상세: 2차전지 테마는 언제 쯤 올까 2차전지 실적이 개선되려면이야기의 포인트 2차전지는 한 번 식으면 오래 쉬는 업종처럼 보입니다. 그</p>
+      <div class="lead-meta"><span class="badge">방문자 요청</span><span>2026-07-07 17:24</span><span>읽기 4분</span></div>
     </article>
-
-    <aside class="wire" aria-label="실시간 시장재료 피드">
-      <div class="wire-head"><span class="live-dot" aria-hidden="true"></span> 시장재료 와이어 <span style="margin-left:auto;color:var(--muted);font-weight:400">30분 단위 기록</span></div>
-      <ol>
-        <li><a href="post.html"><span class="t mono">07:00</span><span class="headline">ESS 수요와 LG엔솔 재평가 조건<span class="cat">시장재료</span></span></a></li>
-        <li><a href="post.html"><span class="t mono">06:30</span><span class="headline">AI데이터센터 2.4GW — 전력주 수혜 순서<span class="cat">시장재료</span></span></a></li>
-        <li><a href="post.html"><span class="t mono">06:00</span><span class="headline">유가 약세 국면, 항공·해운·화학 비교 기준<span class="cat">시장재료</span></span></a></li>
-        <li><a href="post.html"><span class="t mono">05:30</span><span class="headline">삼성생명 DC 계좌 ETF 조합 점검<span class="cat">방문자 요청</span></span></a></li>
-        <li><a href="post.html"><span class="t mono">05:00</span><span class="headline">스페이스X 상장 첫 주, SPCX 거품 논쟁 정리<span class="cat">종목분석</span></span></a></li>
-        <li><a href="post.html"><span class="t mono">04:30</span><span class="headline">레버리지 ETF 장기보유 손실이 생기는 구조<span class="cat">ETF</span></span></a></li>
-      </ol>
-      <a class="wire-more" href="category.html">전체 시장재료 보기 →</a>
+    <aside class="wire" aria-label="최신 글 피드">
+      <div class="wire-head"><span class="live-dot" aria-hidden="true"></span> 시장재료 와이어 <span style="margin-left:auto;color:var(--muted);font-weight:400">수시 기록</span></div>
+      <ol><li><a href="/market-catalysts/auto-20260707073350/"><span class="t mono">07-07 16:33</span><span class="headline">💸7월 말 부동산세제 발표 전 개인투자자가 볼 체크포인트<span class="cat">오늘의 시장재료</span></span></a></li><li><a href="/market-catalysts/auto-20260707063348/"><span class="t mono">07-07 15:33</span><span class="headline">💾가짜뉴스 단속 강화, 플랫폼 회사 실적에는 어떤 부담일까?<span class="cat">오늘의 시장재료</span></span></a></li><li><a href="/market-catalysts/auto-20260707060346/"><span class="t mono">07-07 15:03</span><span class="headline">💾장맛비 이후 복구 수요, 관련주는 어디까지 봐야 할까?<span class="cat">오늘의 시장재료</span></span></a></li><li><a href="/visitor-request/auto-20260707050746/"><span class="t mono">07-07 14:07</span><span class="headline">💾엔비디아 숨 고르기, 다음 AI 수혜는 어디일까<span class="cat">방문자 요청</span></span></a></li><li><a href="/market-catalysts/auto-20260707050344/"><span class="t mono">07-07 14:03</span><span class="headline">🚗충전 스트레스가 줄면 전기차 수요는 다시 살아날까?<span class="cat">오늘의 시장재료</span></span></a></li><li><a href="/market-catalysts/auto-20260707040341/"><span class="t mono">07-07 13:03</span><span class="headline">💾경남·전북 피지컬AI 투자, 수혜주는 왜 바로 갈리지 않을까?<span class="cat">오늘의 시장재료</span></span></a></li><li><a href="/market-catalysts/auto-20260707034739/"><span class="t mono">07-07 12:47</span><span class="headline">🔋LG화학 OLED 특허 승소, 소재주가 다시 주목받는 이유<span class="cat">오늘의 시장재료</span></span></a></li></ol>
+      <a class="wire-more" href="/market-catalysts/">전체 시장재료 보기 →</a>
     </aside>
   </div>
-
-  <!-- 토픽 클러스터 -->
-  <section class="section" aria-labelledby="topics-h">
-    <div class="section-head">
-      <h2 id="topics-h">토픽 맵</h2>
-      <span class="sub">주제별로 쌓아온 판단 기준</span>
-    </div>
-    <div class="topics">
-      <a class="topic" href="category.html"><span class="n mono">455편</span><h3>오늘의 시장재료</h3><p>가격을 움직인 재료를 매일 기록하고 수혜·피해 업종을 가른다</p></a>
-      <a class="topic" href="category.html"><span class="n mono">65편</span><h3>방문자 요청</h3><p>독자가 물어본 종목·계좌·세금 질문에 기준으로 답한다</p></a>
-      <a class="topic" href="category.html"><span class="n mono">48편</span><h3>오늘의 종목 분석</h3><p>급등의 이유와 지속 조건을 재료 단위로 분해한다</p></a>
-      <a class="topic" href="category.html"><span class="n mono">41편</span><h3>초보가 헷갈리는 것</h3><p>예수금 D+2부터 공매도까지, 헷갈리는 순서대로</p></a>
-      <a class="topic" href="category.html"><span class="n mono">20편</span><h3>ETF·레버리지·인버스</h3><p>구조를 모르고 사면 손해 보는 상품의 작동 원리</p></a>
-      <a class="topic" href="category.html"><span class="n mono">19편</span><h3>테마·대장주 변화</h3><p>테마 안에서 대장이 바뀌는 시점의 신호</p></a>
-      <a class="topic" href="category.html"><span class="n mono">13편</span><h3>급등·급락 이유</h3><p>이유 없는 급등은 없다 — 당일 수급과 재료 추적</p></a>
-      <a class="topic" href="category.html"><span class="n mono">12편</span><h3>증권사·수수료·계좌</h3><p>수수료·이벤트·계좌 조건을 표로 비교한다</p></a>
-    </div>
-  </section>
-
-  <!-- 최신 심층 분석 -->
-  <section class="section" aria-labelledby="latest-h">
-    <div class="section-head">
-      <h2 id="latest-h">심층 분석</h2>
-      <a class="more" href="category.html">전체 보기 →</a>
-    </div>
-    <div class="cards">
-      <article class="card">
-        <span class="cat">테마·대장주</span>
-        <h3><a href="post.html">AI데이터센터 2.4GW 증설 — 전력 기기주 수혜는 이 순서로 온다</a></h3>
-        <p>변압기 → 전선 → ESS → 냉각. 발주가 도착하는 순서와 실적에 반영되는 시차를 정리했다.</p>
-        <span class="meta">2026. 7. 6. · 읽기 7분</span>
-      </article>
-      <article class="card">
-        <span class="cat">ETF·레버리지·인버스</span>
-        <h3><a href="post.html">레버리지 ETF를 오래 들고 있으면 왜 지수만큼 못 버는가</a></h3>
-        <p>일간 수익률 복리의 수학. 횡보장에서 녹는 속도를 숫자로 확인한다.</p>
-        <span class="meta">2026. 7. 5. · 읽기 5분</span>
-      </article>
-      <article class="card">
-        <span class="cat">오늘의 종목 분석</span>
-        <h3><a href="post.html">스페이스X는 거품이었나 — 상장 첫 주 흔들리는 SPCX의 진짜 쟁점</a></h3>
-        <p>공모가 논쟁보다 중요한 건 스타링크 매출의 성장 기울기다.</p>
-        <span class="meta">2026. 7. 4. · 읽기 8분</span>
-      </article>
-    </div>
-  </section>
-
-  <!-- 초보 코스 (실제 학습 순서이므로 번호가 정보를 담는다) -->
-  <section class="section" aria-labelledby="start-h">
-    <div class="section-head">
-      <h2 id="start-h">START HERE — 처음이라면 이 순서로</h2>
-    </div>
-    <div class="course">
-      <a href="post.html"><h3>예수금과 D+2 결제</h3><p>내 돈이 왜 이틀 뒤에 출금되는지부터</p></a>
-      <a href="post.html"><h3>호가창 읽는 법</h3><p>매수·매도 잔량이 말해주는 것과 속이는 것</p></a>
-      <a href="post.html"><h3>거래량과 거래대금</h3><p>같은 급등이라도 대금이 다르면 다른 사건</p></a>
-      <a href="post.html"><h3>시장재료 읽는 법</h3><p>뉴스 제목보다 중요한 건 가격이 움직인 이유</p></a>
-      <a href="post.html"><h3>테마와 대장주</h3><p>대장이 쉬면 2등이 가는 구조 이해하기</p></a>
-      <a href="post.html"><h3>ETF로 시작하기</h3><p>종목을 못 고르겠으면 구조부터 배우기</p></a>
-    </div>
-  </section>
-
-  <!-- 뉴스레터 -->
-  <section class="section">
-    <div class="newsletter">
-      <div>
-        <h2>장 시작 전 5분 브리핑</h2>
-        <p>매일 아침 8시, 오늘 가격을 움직일 재료 3개를 메일로 보냅니다. 광고 없음.</p>
-      </div>
-      <form action="#" method="post">
-        <input type="email" name="email" placeholder="이메일 주소" aria-label="이메일 주소" required>
-        <button class="btn" type="submit">구독하기</button>
-      </form>
-    </div>
-  </section>
-
+  <section class="section"><div class="section-head"><h2>토픽 맵</h2><span class="sub">주제별로 쌓아온 판단 기준</span></div>
+  <div class="topics"><a class="topic" href="/market-catalysts/"><span class="n mono">467편</span><h3>오늘의 시장재료</h3><p>가격을 움직인 재료를 매일 기록하고 수혜·피해 업종을 가른다</p></a><a class="topic" href="/visitor-request/"><span class="n mono">68편</span><h3>방문자 요청</h3><p>독자가 물어본 종목·계좌·세금 질문에 기준으로 답한다</p></a><a class="topic" href="/stock-analysis/"><span class="n mono">47편</span><h3>오늘의 종목 분석</h3><p>급등의 이유와 지속 조건을 재료 단위로 분해한다</p></a><a class="topic" href="/beginner-guide/"><span class="n mono">37편</span><h3>초보가 헷갈리는 것</h3><p>예수금 D+2부터 공매도까지, 헷갈리는 순서대로</p></a><a class="topic" href="/etf-leverage-inverse/"><span class="n mono">20편</span><h3>ETF·레버리지·인버스</h3><p>구조를 모르고 사면 손해 보는 상품의 작동 원리</p></a><a class="topic" href="/theme-leaders/"><span class="n mono">16편</span><h3>테마·대장주 변화</h3><p>테마 안에서 대장이 바뀌는 시점의 신호</p></a><a class="topic" href="/surge-reasons/"><span class="n mono">13편</span><h3>급등·급락 이유</h3><p>이유 없는 급등은 없다 — 당일 수급과 재료 추적</p></a><a class="topic" href="/brokerage-fee-compare/"><span class="n mono">12편</span><h3>증권사·수수료·계좌</h3><p>수수료·이벤트·계좌 조건을 표로 비교한다</p></a></div></section>
+  <section class="section"><div class="section-head"><h2>심층 분석</h2><a class="more" href="/stock-analysis/">전체 보기 →</a></div>
+  <div class="cards"><article class="card"><span class="cat">방문자 요청</span><h3><a href="/visitor-request/auto-20260707082422/">🔋2차전지, 실적 개선만 기다리면 늦을까?</a></h3><p>질문 원문방문자 요청 원문 제목: Lg에너지솔루션 등 2차전지 관련주 실적 개선상세: 2차전지 테마는 언제 쯤 올까 2차전지 </p><span class="meta">2026-07-07 · 읽기 4분</span></article><article class="card"><span class="cat">방문자 요청</span><h3><a href="/visitor-request/auto-20260707050746/">💾엔비디아 숨 고르기, 다음 AI 수혜는 어디일까</a></h3><p>질문 원문: Ai의 대장주인 엔비디아가 최근 주가에 힘이 없는데 이건 ai전체 시장에 시즌 종료의 시발탄이 되는 걸까? 아니면</p><span class="meta">2026-07-07 · 읽기 4분</span></article><article class="card"><span class="cat">방문자 요청</span><h3><a href="/visitor-request/auto-20260707024348/">📌금호에이치티, 재개 첫날은 이것부터 봐야 합니다</a></h3><p>질문 원문 제목: 금호에이치티의 전라도이전 상세: 전라도이전프로젝트에 삼성기업 바로 앞집 에 부지가 있던데 지금 거래정지로 내</p><span class="meta">2026-07-07 · 읽기 4분</span></article></div></section>
 </main>
-
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <div>
-      <strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
-      <a href="category.html">전체 글</a> · <a href="post.html">소개</a> · <a href="post.html">문의</a>
-    </div>
+    <div><strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
+    <a href="/market-catalysts/">전체 글</a></div>
     <p class="fine">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다. © 2026 SUPERSTOCK</p>
   </div>
 </footer>
-
 <script>
-document.getElementById("themeBtn").addEventListener("click", function () {
-  var r = document.documentElement;
-  var next = (r.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark" ? "light" : "dark";
-  r.dataset.theme = next;
-  try { localStorage.setItem("theme", next); } catch (e) {}
-});
+document.getElementById("themeBtn").addEventListener("click",function(){var r=document.documentElement;
+var n=(r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark"?"light":"dark";
+r.dataset.theme=n;try{localStorage.setItem("theme",n);}catch(e){}});
 </script>
 </body>
 </html>

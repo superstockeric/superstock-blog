@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📊ETF 시장가·NAV·iNAV, 같은 듯 다른 3개 — 하나만 보고 샀다가 3% 손해 보는 이유 — SUPERSTOCK</title>
+<meta name="description" content="ETF를 살 때 시장가만 보면 안 되는 이유. NAV, iNAV, 괴리율, 추적오차 — 같은 듯 다른 4개 개념을 실제 ETF 사례로 정리했다.">
+<link rel="canonical" href="https://blog.superstockeric.workers.dev/etf-leverage-inverse/etf-시장가·nav·inav-같은-듯-다른-3개-하나만-보고-샀다가-3/">
+<meta property="og:title" content="📊ETF 시장가·NAV·iNAV, 같은 듯 다른 3개 — 하나만 보고 샀다가 3% 손해 보는 이유 — SUPERSTOCK">
+<meta property="og:description" content="ETF를 살 때 시장가만 보면 안 되는 이유. NAV, iNAV, 괴리율, 추적오차 — 같은 듯 다른 4개 개념을 실제 ETF 사례로 정리했다.">
+<meta property="og:url" content="https://blog.superstockeric.workers.dev/etf-leverage-inverse/etf-시장가·nav·inav-같은-듯-다른-3개-하나만-보고-샀다가-3/">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<meta property="og:type" content="article">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "📊ETF 시장가·NAV·iNAV, 같은 듯 다른 3개 — 하나만 보고 샀다가 3% 손해 보는 이유", "datePublished": "2026-06-25T23:06:41", "dateModified": "2026-07-06T10:18:36", "author": {"@type": "Organization", "name": "SUPERSTOCK"}, "publisher": {"@type": "Organization", "name": "SUPERSTOCK"}, "mainEntityOfPage": "https://blog.superstockeric.workers.dev/etf-leverage-inverse/etf-시장가·nav·inav-같은-듯-다른-3개-하나만-보고-샀다가-3/", "inLanguage": "ko", "articleSection": "ETF·레버리지·인버스"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://blog.superstockeric.workers.dev/"}, {"@type": "ListItem", "position": 2, "name": "ETF·레버리지·인버스", "item": "https://blog.superstockeric.workers.dev/etf-leverage-inverse/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">SUPERSTOCK<span class="tick">▲</span></a>
+    <span class="brand-tag">가격이 움직인 이유를 기록한다</span>
+    <nav class="main-nav" aria-label="주요 카테고리"><a href="/market-catalysts/">시장재료</a><a href="/stock-analysis/">종목분석</a><a href="/theme-leaders/">테마·대장주</a><a href="/etf-leverage-inverse/">ETF</a><a href="/beginner-guide/">초보 가이드</a></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </div>
+</header>
+<main class="wrap article-wrap">
+  <article class="article" style="max-width:760px">
+    <p class="crumb"><a href="/">홈</a> › <a href="/etf-leverage-inverse/">ETF·레버리지·인버스</a></p>
+    <h1>📊ETF 시장가·NAV·iNAV, 같은 듯 다른 3개 — 하나만 보고 샀다가 3% 손해 보는 이유</h1>
+    <div class="a-meta"><span>2026-06-25 23:06</span><span>읽기 6분</span><span class="badge">ETF·레버리지·인버스</span></div>
+    <p>ETF를 살 때 대부분의 투자자는 시장가 하나만 본다. 지금 화면에 찍힌 가격, 그게 전부라고 생각한다. 하지만 ETF에는 동시에 3개의 다른 가격이 존재한다. 시장가, 순자산가치(NAV), 실시간 추정 순자산가치(iNAV). 이 셋이 얼마나 벌어져 있는지 모르고 사면, 같은 지수를 추종하는 ETF를 골랐는데도 수익률이 갈리는 이유를 평생 모를 수 있다.</p>
+<figure class="wp-block-image size-large"><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/fix_833.jpg" alt="" style="max-width:100%;height:auto" /></figure>
+<h2>한줄 포인트</h2>
+<p>ETF의 시장가가 NAV보다 3% 높으면, 당신은 ETF가 담은 실제 자산보다 3% 비싸게 사는 셈이다. 반대로 시장가가 NAV보다 싸면 그만큼 할인된 가격에 사는 거다. 추적오차는 완전히 다른 개념이다. ETF가 추종하는 지수와 ETF 순자산가치 사이의 누적 괴리를 말한다. 괴리율과 추적오차를 구분하지 못하면, 싼 ETF인 줄 알고 샀다가 구조적 손실을 안고 가는 상황이 벌어진다.</p>
+<h2>ETF의 3가지 가격 — 장중에 동시에 존재하는 숫자들</h2>
+<p>ETF는 주식처럼 거래소에서 실시간으로 사고팔 수 있다. 그래서 시장에는 항상 두 가지 가격이 떠 있다. 투자자가 실제로 거래하는 시장가, 그리고 ETF가 담고 있는 주식들의 실시간 합산 가치인 iNAV다. 장 마감 후에는 하루 한 번 공식 NAV가 확정된다.</p>
+<p>셋의 관계를 표로 정리하면 이렇다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>구분</th>
+<th>뜻</th>
+<th>갱신 주기</th>
+<th>누가 결정하나</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시장가</td>
+<td>거래소에서 실제로 체결된 가격</td>
+<td>실시간 (호가마다)</td>
+<td>매수·매도 투자자</td>
+</tr>
+<tr>
+<td>NAV</td>
+<td>ETF가 보유한 자산의 전일 종가 기준 순자산가치</td>
+<td>하루 1회 (장 마감 후)</td>
+<td>자산운용사</td>
+</tr>
+<tr>
+<td>iNAV</td>
+<td>ETF 보유 자산의 실시간 추정 순자산가치</td>
+<td>실시간 (10~15초)</td>
+<td>거래소·운용사</td>
+</tr>
+</tbody>
+</table>
+<p>핵심은 간단하다. 장중에는 iNAV를 기준으로 생각해야 한다. 전일 NAV는 이미 지나간 숫자다. 오늘 시장이 급등락하면 NAV와 iNAV는 수 퍼센트 벌어져 있다. 그 상태에서 NAV만 보고 ‘이 ETF는 NAV 대비 싸다’고 판단하면 큰 오산이다.</p>
+<h2>괴리율 — 시장가와 NAV 사이의 틈</h2>
+<p>괴리율은 ETF의 시장가가 NAV에서 얼마나 벗어나 있는지를 백분율로 나타낸 것이다. 공식은 단순하다. (시장가 − NAV) ÷ NAV × 100. 양수면 프리미엄, 음수면 디스카운트다.</p>
+<p>괴리율이 크게 벌어지는 상황은 보통 세 가지다. 첫째, ETF 기초자산이 해외 주식인데 한국 장이 열려 있고 현지 장은 닫혀 있을 때. 둘째, 레버리지·인버스처럼 운용 구조가 복잡해 LP(유동성공급자)가 헤지를 제대로 못 할 때. 셋째, 시장이 급등락할 때 LP 호가 제출이 지연되면서 시장가가 iNAV를 따라가지 못할 때.</p>
+<p>실제 사례를 보자. 2026년 6월 25일 기준 주요 ETF의 괴리율 근사치를 표로 정리했다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>ETF</th>
+<th>시장가 (원)</th>
+<th>NAV 근사치 (원)</th>
+<th>괴리율</th>
+<th>상태</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 200</td>
+<td>145,830</td>
+<td>145,600</td>
+<td>+0.16%</td>
+<td>정상</td>
+</tr>
+<tr>
+<td>KODEX 레버리지</td>
+<td>227,365</td>
+<td>226,800</td>
+<td>+0.25%</td>
+<td>정상</td>
+</tr>
+<tr>
+<td>KODEX 인버스</td>
+<td>855</td>
+<td>852</td>
+<td>+0.35%</td>
+<td>정상</td>
+</tr>
+<tr>
+<td>KODEX 200선물인버스2X</td>
+<td>62</td>
+<td>61</td>
+<td>+1.64%</td>
+<td>주의</td>
+</tr>
+<tr>
+<td>KODEX 코스닥150레버리지</td>
+<td>15,870</td>
+<td>15,780</td>
+<td>+0.57%</td>
+<td>정상</td>
+</tr>
+<tr>
+<td>TIGER 원유선물Enhanced(H)</td>
+<td>5,675</td>
+<td>5,590</td>
+<td>+1.52%</td>
+<td>주의</td>
+</tr>
+</tbody>
+</table>
+<p>괴리율 1% 이상이면 LP가 제 역할을 못 하고 있다는 신호다. 특히 곱버스 같은 고난도 ETF는 장중 괴리율이 순식간에 3~5%까지 튈 수 있다. 이런 순간에 시장가로 매수하면, NAV 대비 수 퍼센트 비싸게 사는 거고 그 차이는 시간이 지나면서 손실로 확정된다.</p>
+<h2>추적오차 — ETF가 지수를 못 따라가는 근본 이유</h2>
+<p>추적오차는 괴리율과 완전히 다른 개념이다. 괴리율이 시장가와 NAV의 하루 단위 차이라면, 추적오차는 NAV와 기초지수 사이의 중장기 누적 괴리다. ETF가 추종한다고 약속한 지수를 실제로 얼마나 정확히 따라갔는지를 보여주는 숫자다.</p>
+<p>추적오차가 생기는 이유는 비용 때문이다. 운용보수, 신탁보수, 사무관리보수, 매매수수료, 그리고 레버리지·인버스 ETF의 경우 스왑 비용과 복제 전략의 한계까지 더해진다. 총보수가 연 0.1%면 추적오차도 그 근처에서 형성되고, 총보수가 연 0.6%인 상품은 추적오차도 그만큼 커진다.</p>
+<p>주요 ETF의 추적오차 비교다. 수치는 최근 1년 기준 근사치를 사용했다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>ETF</th>
+<th>총보수</th>
+<th>1년 추적오차 (근사)</th>
+<th>10년 누적 시 예상 격차</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 200</td>
+<td>0.15%</td>
+<td>0.2~0.3%</td>
+<td>약 2~3%</td>
+</tr>
+<tr>
+<td>TIGER 200</td>
+<td>0.05%</td>
+<td>0.1~0.2%</td>
+<td>약 1~2%</td>
+</tr>
+<tr>
+<td>KODEX 레버리지</td>
+<td>0.64%</td>
+<td>1.5~2.5%</td>
+<td>복리로 크게 벌어짐</td>
+</tr>
+<tr>
+<td>KODEX 인버스</td>
+<td>0.64%</td>
+<td>2.0~3.0%</td>
+<td>복리로 크게 벌어짐</td>
+</tr>
+<tr>
+<td>KODEX 200선물인버스2X</td>
+<td>0.74%</td>
+<td>3.0~5.0%</td>
+<td>1년만 버텨도 상당한 괴리</td>
+</tr>
+</tbody>
+</table>
+<p>눈여겨볼 점은 레버리지·인버스 ETF의 추적오차가 단순히 보수의 2~4배 수준이라는 거다. 이건 스왑 비용, 롤오버 비용, 그리고 일별 수익률 복리화 구조에서 오는 왜곡이 합쳐진 결과다. 곱버스는 하루만 들고 있어야 한다는 말이 여기서 나온다. 오래 들고 있으면 추적오차가 수익률을 조금씩 갉아먹기 때문이다.</p>
+<h2>괴리율과 추적오차, 헷갈리면 벌어지는 일</h2>
+<p>두 개념의 차이를 한눈에 비교해 보자.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>구분</th>
+<th>괴리율</th>
+<th>추적오차</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>무엇과 무엇의 차이인가</td>
+<td>시장가 − NAV</td>
+<td>NAV − 기초지수</td>
+</tr>
+<tr>
+<td>발생 원인</td>
+<td>수급·LP 부재·시장 충격</td>
+<td>보수·거래비용·복제 오차</td>
+</tr>
+<tr>
+<td>시간 축</td>
+<td>하루, 장중 실시간</td>
+<td>수개월~수년 누적</td>
+</tr>
+<tr>
+<td>투자자가 통제 가능한가</td>
+<td>가능 — 주문 전 확인</td>
+<td>불가능 — ETF 선택 시점에 결정</td>
+</tr>
+<tr>
+<td>위험 신호 기준</td>
+<td>±1% 이상 벌어지면 주의</td>
+<td>연 1% 이상이면 낮은 보수 상품으로 갈아탈 검토</td>
+</tr>
+</tbody>
+</table>
+<p>실전에서 자주 보는 실수는 이렇다. ‘KODEX 레버리지가 KOSPI200 일간 수익률의 2배를 따라간다고 해서 샀는데, 몇 달 지나보니 2배보다 한참 못 미친다.’ 이건 추적오차 때문이지 괴리율 때문이 아니다. 반대로 ‘장중에 ETF 가격이 갑자기 NAV보다 3% 올랐는데도 그냥 샀다가 바로 3% 손해를 봤다.’ 이건 괴리율을 무시한 거다.</p>
+<p>매수 전에 10초만 투자해 증권사 앱이나 거래소 ETF 정보 화면에서 iNAV와 시장가를 동시에 확인하는 습관만 들어도 괴리율 손실은 대부분 피할 수 있다. 추적오차는 종목 선택 시점에서 총보수와 운용 방식을 비교하는 것으로 대응한다.</p>
+<h2>기억할 것 3가지</h2>
+<p>첫째, ETF를 살 때는 시장가만 보지 말고 iNAV를 같이 본다. 둘 사이가 1% 이상 벌어져 있으면 이유를 확인하고 들어간다.</p>
+<p>둘째, 괴리율이 커지는 순간은 대부분 LP가 기능을 못 할 때다. 급등락장에서 곱버스나 해외 ETF의 괴리율이 튀는 건 흔한 일이고, 그걸 모르고 시장가로 거래하면 확정 손실이다.</p>
+<p>셋째, 추적오차는 매일매일 체크할 필요는 없지만, 분기별로 한 번쯤 ETF의 실제 성과가 추종 지수에서 얼마나 벗어났는지 들여다볼 필요가 있다. 1년에 1.5%씩 벌어지는 ETF와 0.2%씩 벌어지는 ETF는 5년만 지나도 결과가 크게 갈린다.</p>
+<div style="font-size:12px;color:#8899aa;border-top:1px solid #ddd;padding-top:12px;margin-top:24px">
+<p>⚠️ 이 글은 특정 ETF의 매매를 권유하지 않습니다. 모든 투자 판단과 책임은 투자자 본인에게 있습니다. ETF의 괴리율과 추적오차 수치는 시점과 운용사 공시에 따라 달라질 수 있으므로, 실제 거래 전에 해당 ETF의 투자설명서와 최신 공시를 반드시 확인하시기 바랍니다.</p>
+</div>
+
+    <p class="disclaimer">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다.<br>최초 발행 2026-06-25 · 최종 수정 2026-07-06 · 작성 SUPERSTOCK 편집부</p>
+    <nav class="prevnext" aria-label="이전 다음 글"><a href="/brokerage-fee-compare/증권사-수수료-협상-실전-0-015에서-0-0036까지-전화-한-통/"><span class="dir">← 이전 글</span>📌증권사 수수료 협상 실전 — 0.015%에서 0.0036%까지, 전화 한 통으로 깎는 법</a><a href="/ipo-listings/ipo-equal-allocation-zero-shares/" style="text-align:right"><span class="dir">다음 글 →</span>🚀공모주 청약 균등배정, 수십만원 넣었는데 왜 0주 받을까?</a></nav>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div><strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
+    <a href="/market-catalysts/">전체 글</a></div>
+    <p class="fine">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다. © 2026 SUPERSTOCK</p>
+  </div>
+</footer>
+<script>
+document.getElementById("themeBtn").addEventListener("click",function(){var r=document.documentElement;
+var n=(r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark"?"light":"dark";
+r.dataset.theme=n;try{localStorage.setItem("theme",n);}catch(e){}});
+</script>
+</body>
+</html>

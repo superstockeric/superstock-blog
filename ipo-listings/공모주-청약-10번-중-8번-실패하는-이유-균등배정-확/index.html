@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🚀공모주 청약 10번 중 8번 실패하는 이유 — 균등배정 확률, 직접 계산해보니 — SUPERSTOCK</title>
+<meta name="description" content="핵심만 먼저 공모주 청약, 균등배정으로 최소 1주는 받을 수 있다는 말에 10만원씩 넣는 분들이 많다. 그런데 경쟁률 1,000:1이 넘는 요즘 공모주 시장에서 균등배정 1주를 받을 확률은 생각보다 훨씬 낮다. 증거">
+<link rel="canonical" href="https://blog.superstockeric.workers.dev/ipo-listings/공모주-청약-10번-중-8번-실패하는-이유-균등배정-확/">
+<meta property="og:title" content="🚀공모주 청약 10번 중 8번 실패하는 이유 — 균등배정 확률, 직접 계산해보니 — SUPERSTOCK">
+<meta property="og:description" content="핵심만 먼저 공모주 청약, 균등배정으로 최소 1주는 받을 수 있다는 말에 10만원씩 넣는 분들이 많다. 그런데 경쟁률 1,000:1이 넘는 요즘 공모주 시장에서 균등배정 1주를 받을 확률은 생각보다 훨씬 낮다. 증거">
+<meta property="og:url" content="https://blog.superstockeric.workers.dev/ipo-listings/공모주-청약-10번-중-8번-실패하는-이유-균등배정-확/">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<meta property="og:type" content="article">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "🚀공모주 청약 10번 중 8번 실패하는 이유 — 균등배정 확률, 직접 계산해보니", "datePublished": "2026-06-25T17:34:59", "dateModified": "2026-06-28T03:10:59", "author": {"@type": "Organization", "name": "SUPERSTOCK"}, "publisher": {"@type": "Organization", "name": "SUPERSTOCK"}, "mainEntityOfPage": "https://blog.superstockeric.workers.dev/ipo-listings/공모주-청약-10번-중-8번-실패하는-이유-균등배정-확/", "inLanguage": "ko", "articleSection": "공모주·신규상장"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://blog.superstockeric.workers.dev/"}, {"@type": "ListItem", "position": 2, "name": "공모주·신규상장", "item": "https://blog.superstockeric.workers.dev/ipo-listings/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">SUPERSTOCK<span class="tick">▲</span></a>
+    <span class="brand-tag">가격이 움직인 이유를 기록한다</span>
+    <nav class="main-nav" aria-label="주요 카테고리"><a href="/market-catalysts/">시장재료</a><a href="/stock-analysis/">종목분석</a><a href="/theme-leaders/">테마·대장주</a><a href="/etf-leverage-inverse/">ETF</a><a href="/beginner-guide/">초보 가이드</a></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </div>
+</header>
+<main class="wrap article-wrap">
+  <article class="article" style="max-width:760px">
+    <p class="crumb"><a href="/">홈</a> › <a href="/ipo-listings/">공모주·신규상장</a></p>
+    <h1>🚀공모주 청약 10번 중 8번 실패하는 이유 — 균등배정 확률, 직접 계산해보니</h1>
+    <div class="a-meta"><span>2026-06-25 17:34</span><span>읽기 5분</span><span class="badge">공모주·신규상장</span></div>
+    <h2>핵심만 먼저</h2>
+<p>공모주 청약, 균등배정으로 최소 1주는 받을 수 있다는 말에 10만원씩 넣는 분들이 많다. 그런데 경쟁률 1,000:1이 넘는 요즘 공모주 시장에서 균등배정 1주를 받을 확률은 생각보다 훨씬 낮다. 증거금 10만원으로는 10%도 안 되는 경우가 허다하고, 50만원을 넣어야 겨우 30~40% 수준이다. 균등이 ‘공평한 배분’이 아니라는 점, 숫자로 정리해봤다.</p>
+<figure class="wp-block-image size-large"><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/fix_799.jpg" alt="" style="max-width:100%;height:auto"/></figure>
+<h2>균등배정 구조 — 절반은 어떻게 나누나</h2>
+<p>공모주 청약 배정은 두 갈래로 나뉜다. 전체 공모주 물량의 50%는 비례배정, 나머지 50%는 균등배정이다. 비례배정은 청약증거금을 많이 넣은 사람에게 더 많은 주식을 배정하는 방식이다. 균등배정은 청약에 참여한 모든 사람에게 1주씩 최대한 골고루 나눠주는 구조다.</p>
+<p>중요한 건 균등배정에도 물량 제한이 있다는 점이다. 예를 들어 균등배정 물량이 10만 주인데 청약자가 20만 명이면, 모든 사람이 1주도 받지 못하는 게 아니라 추첨으로 10만 명만 1주씩 받는다. 청약자 수가 균등배정 물량을 넘어서는 순간부터 확률 게임이 시작된다.</p>
+<p>최근 공모주 열기가 뜨거워지면서 청약자 수가 수십만 명을 넘나드는 종목이 늘었다. 그만큼 균등배정 1주조차 받을 확률이 빠르게 낮아지고 있다.</p>
+<h2>청약증거금별 균등배정 확률 — 숫자로 보면</h2>
+<p>균등배정 확률은 청약증거금이 아니라 청약자 수와 균등배정 물량만으로 결정된다. 그런데 청약증거금을 올리면 비례배정에서 추가 배정을 받을 가능성이 생기고, 동시에 균등배정 추첨에도 참여한다. 아래 표는 대표적인 공모주 사례를 바탕으로 증거금 규모별 기대 배정 주식 수를 정리한 것이다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr style="background:#f5f5f5">
+<th>청약증거금</th>
+<th>균등배정 확률</th>
+<th>비례 기대배정</th>
+<th>총 기대배정</th>
+<th>비고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10만원</td>
+<td>8%</td>
+<td>0주</td>
+<td>0.08주</td>
+<td>사실상 0주</td>
+</tr>
+<tr>
+<td>30만원</td>
+<td>8%</td>
+<td>0주</td>
+<td>0.08주</td>
+<td>균등에만 의존</td>
+</tr>
+<tr>
+<td>50만원</td>
+<td>8%</td>
+<td>0.1주</td>
+<td>0.18주</td>
+<td>비례 물량 소폭</td>
+</tr>
+<tr>
+<td>100만원</td>
+<td>15%</td>
+<td>0.3주</td>
+<td>0.45주</td>
+<td>균등 확률 2배</td>
+</tr>
+<tr>
+<td>300만원</td>
+<td>45%</td>
+<td>0.9주</td>
+<td>1.35주</td>
+<td>균등 1주 가능권</td>
+</tr>
+<tr>
+<td>1,000만원</td>
+<td>45%</td>
+<td>3.0주</td>
+<td>3.45주</td>
+<td>비례가 주력</td>
+</tr>
+</tbody>
+</table>
+<p>기준: 경쟁률 1,000:1, 균등물량 10만 주, 청약자 22만 명, 공모가 1만원 가정. 실제 확률은 종목마다 다르다.</p>
+<p>10만원 넣었을 때 균등배정 확률이 8%라는 건, 열 번 청약해도 평균 0.8번 받는다는 뜻이다. 반면 300만원 정도 넣으면 균등배정 확률은 45% 선까지 올라가고, 비례배정으로 추가 배정까지 기대할 수 있다.</p>
+<h2>실제 사례로 보는 배정 확률 격차</h2>
+<p>2025년 하반기 이후 공모주 시장에서 경쟁률이 높았던 종목들을 기준으로, 청약자 1인당 균등배정 확률을 계산해보면 종목 간 편차가 상당히 크다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr style="background:#f5f5f5">
+<th>종목 유형</th>
+<th>경쟁률</th>
+<th>균등물량</th>
+<th>청약자 수</th>
+<th>균등배정 확률</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>초대형어</td>
+<td>150:1</td>
+<td>200만주</td>
+<td>60만명</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>대어급</td>
+<td>500:1</td>
+<td>50만주</td>
+<td>40만명</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>인기 중형주</td>
+<td>1,200:1</td>
+<td>10만주</td>
+<td>18만명</td>
+<td>55%</td>
+</tr>
+<tr>
+<td>소형 기술주</td>
+<td>2,500:1</td>
+<td>3만주</td>
+<td>15만명</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>테마 집중주</td>
+<td>4,000:1</td>
+<td>1만주</td>
+<td>12만명</td>
+<td>8%</td>
+</tr>
+</tbody>
+</table>
+<p>LG에너지솔루션 같은 초대형 공모주는 균등물량 자체가 수백만 주에 달해 청약자 전원이 1주씩 받을 수 있었다. 반면 소형 기술주나 테마주는 공모 규모가 작아 균등배정 확률이 10% 아래로 떨어지는 경우도 흔하다. 같은 10만원을 넣어도 어떤 종목에 청약하느냐에 따라 기댓값이 완전히 달라진다.</p>
+<h2>비례 vs 균등, 상황별 유불리</h2>
+<p>비례배정과 균등배정은 각각 장단점이 뚜렷하다. 투자 성향과 자금 규모에 따라 어떤 전략이 맞는지 정리했다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr style="background:#f5f5f5">
+<th>구분</th>
+<th>비례배정</th>
+<th>균등배정</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>배정 기준</td>
+<td>청약증거금 비율</td>
+<td>청약자 1인당 1주</td>
+</tr>
+<tr>
+<td>소액 투자자</td>
+<td>불리함</td>
+<td>유리함</td>
+</tr>
+<tr>
+<td>고액 투자자</td>
+<td>매우 유리</td>
+<td>1주만 받음</td>
+</tr>
+<tr>
+<td>경쟁률 낮을 때</td>
+<td>증거금 늘릴수록 유리</td>
+<td>대부분 1주 확보</td>
+</tr>
+<tr>
+<td>경쟁률 높을 때</td>
+<td>많은 증거금 필요</td>
+<td>확률 급감</td>
+</tr>
+<tr>
+<td>실효성 판단</td>
+<td>1,000만원 이상부터 의미</td>
+<td>100만원 이하에 적합</td>
+</tr>
+</tbody>
+</table>
+<p>소액으로 이것저것 넣어보는 투자자라면 균등배정에 기대는 게 현실적이다. 하지만 경쟁률이 2,000:1을 넘는 인기 종목에서는 균등배정 확률 자체가 한 자릿수로 떨어진다는 점을 반드시 감안해야 한다. 반면 어느 정도 자금 여력이 있다면 비례배정을 노리고 증거금을 집중하는 편이 기대 수익 측면에서 낫다.</p>
+<h2>놓치기 쉬운 포인트</h2>
+<p>첫째, 균등배정은 복수 계좌로 신청해도 1인당 1주가 원칙이다. 가족 명의로 여러 계좌를 만들면 각각 균등배정을 받을 수 있지만, 동일인 중복 청약은 전부 무효 처리된다.</p>
+<p>둘째, 청약증거금은 배정 결과 발표까지 묶여 있다. 보통 3~5일간 자금이 묶이므로, 여러 종목에 연속 청약하려면 일정을 미리 계산해야 한다.</p>
+<p>셋째, 균등배정 1주를 받더라도 수익이 보장되는 건 아니다. 공모가 대비 상장일 시초가가 낮으면 손실이 발생한다. 최근에는 상장 첫날 공모가를 밑도는 종목도 나오고 있어, 무조건적인 청약보다 종목별 옥석 가리기가 더 중요해졌다.</p>
+<p>넷째, 균등배정 물량이 적은 종목은 청약 첫날부터 경쟁률 추이를 확인하며 전략을 조정하는 게 낫다. 마지막 날 오후가 되면 경쟁률이 급등해 예상보다 배정 확률이 크게 낮아질 수 있다.</p>
+<h2>한 줄 정리</h2>
+<p>공모주 청약에서 균등배정은 소액 투자자에게 열린 유일한 문이지만, 경쟁률이 높은 종목일수록 그 문은 점점 좁아진다. 10만원으로는 사실상 희망고문에 가깝고, 최소 100만원 이상은 넣어야 통계적으로 의미 있는 배정 확률을 기대할 수 있다.</p>
+</p>
+<p style="font-size:13px;color:#666;border-top:1px solid #ddd;padding-top:12px;margin-top:20px">이 글은 개인적인 정리이며 투자 조언이 아닙니다. 공모주 청약은 원금 손실 가능성이 있으며, 투자 판단은 본인의 책임 하에 신중하게 진행하시기 바랍니다. 공모가·경쟁률·균등배정 수량은 모두 장 마감 기준이며, 실제 배정 결과는 증권사와 발행사의 최종 확정에 따릅니다.</p>
+
+    <p class="disclaimer">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다.<br>최초 발행 2026-06-25 · 최종 수정 2026-06-28 · 작성 SUPERSTOCK 편집부</p>
+    <nav class="prevnext" aria-label="이전 다음 글"><a href="/surge-reasons/오늘의-급락종목과-그-사유-2026년-6월-25일-10-이상-하락-종/"><span class="dir">← 이전 글</span>💾오늘의 급락종목과 그 사유: 2026년 6월 25일 -10% 이상 하락 종목</a><a href="/beginner-guide/폭등장에서-사자-누르기-전에-꼭-체크해야-할-5가지/" style="text-align:right"><span class="dir">다음 글 →</span>📊폭등장에서 ‘사자’ 누르기 전에, 꼭 체크해야 할 5가지</a></nav>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div><strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
+    <a href="/market-catalysts/">전체 글</a></div>
+    <p class="fine">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다. © 2026 SUPERSTOCK</p>
+  </div>
+</footer>
+<script>
+document.getElementById("themeBtn").addEventListener("click",function(){var r=document.documentElement;
+var n=(r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark"?"light":"dark";
+r.dataset.theme=n;try{localStorage.setItem("theme",n);}catch(e){}});
+</script>
+</body>
+</html>

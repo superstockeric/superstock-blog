@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📊ETF 레버리지, 2배 수익이라는 말에 속으면 안 되는 이유 — SUPERSTOCK</title>
+<meta name="description" content="레버리지 ETF, 진짜 2배일까? 코스피가 1% 오르면 2% 오르는 ETF. 누구나 한 번쯤 들어봤을 레버리지 상품이다. “방향만 맞추면 2배 수익”이라는 말에 솔깃해지는 건 당연하다. 그런데 2024년 코스피200">
+<link rel="canonical" href="https://blog.superstockeric.workers.dev/beginner-guide/etf-레버리지-2배-수익이라는-말에-속으면-안-되는-이유/">
+<meta property="og:title" content="📊ETF 레버리지, 2배 수익이라는 말에 속으면 안 되는 이유 — SUPERSTOCK">
+<meta property="og:description" content="레버리지 ETF, 진짜 2배일까? 코스피가 1% 오르면 2% 오르는 ETF. 누구나 한 번쯤 들어봤을 레버리지 상품이다. “방향만 맞추면 2배 수익”이라는 말에 솔깃해지는 건 당연하다. 그런데 2024년 코스피200">
+<meta property="og:url" content="https://blog.superstockeric.workers.dev/beginner-guide/etf-레버리지-2배-수익이라는-말에-속으면-안-되는-이유/">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<meta property="og:type" content="article">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "📊ETF 레버리지, 2배 수익이라는 말에 속으면 안 되는 이유", "datePublished": "2026-06-24T21:07:37", "dateModified": "2026-07-06T10:18:44", "author": {"@type": "Organization", "name": "SUPERSTOCK"}, "publisher": {"@type": "Organization", "name": "SUPERSTOCK"}, "mainEntityOfPage": "https://blog.superstockeric.workers.dev/beginner-guide/etf-레버리지-2배-수익이라는-말에-속으면-안-되는-이유/", "inLanguage": "ko", "articleSection": "초보가 헷갈리는 것"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://blog.superstockeric.workers.dev/"}, {"@type": "ListItem", "position": 2, "name": "초보가 헷갈리는 것", "item": "https://blog.superstockeric.workers.dev/beginner-guide/"}]}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">SUPERSTOCK<span class="tick">▲</span></a>
+    <span class="brand-tag">가격이 움직인 이유를 기록한다</span>
+    <nav class="main-nav" aria-label="주요 카테고리"><a href="/market-catalysts/">시장재료</a><a href="/stock-analysis/">종목분석</a><a href="/theme-leaders/">테마·대장주</a><a href="/etf-leverage-inverse/">ETF</a><a href="/beginner-guide/">초보 가이드</a></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="테마 전환">◐</button>
+  </div>
+</header>
+<main class="wrap article-wrap">
+  <article class="article" style="max-width:760px">
+    <p class="crumb"><a href="/">홈</a> › <a href="/beginner-guide/">초보가 헷갈리는 것</a></p>
+    <h1>📊ETF 레버리지, 2배 수익이라는 말에 속으면 안 되는 이유</h1>
+    <div class="a-meta"><span>2026-06-24 21:07</span><span>읽기 5분</span><span class="badge">초보가 헷갈리는 것</span></div>
+    <h2>레버리지 ETF, 진짜 2배일까?</h2>
+<p>코스피가 1% 오르면 2% 오르는 ETF. 누구나 한 번쯤 들어봤을 레버리지 상품이다. “방향만 맞추면 2배 수익”이라는 말에 솔깃해지는 건 당연하다.</p>
+<figure class="wp-block-image size-large"><img loading="lazy"  decoding="async" src="https://mystocknote.blog/wp-content/uploads/2026/06/fix_644.jpg" alt="" style="max-width:100%;height:auto" /></figure>
+<p>그런데 2024년 코스피200이 5% 올랐던 3개월 동안, 코스피200 레버리지 ETF는 6.2% 올랐다. 2배인 10%가 아니라 6.2%다. 왜 그럴까.</p>
+<p>오늘은 레버리지 ETF의 실제 작동 방식과, 투자 전에 반드시 알아야 할 함정을 정리해본다.</p>
+<h2>한줄 포인트</h2>
+<p>레버리지 ETF는 <b>하루 단위</b>로 2배를 추종한다. 하루 이상 들고 있으면 복리 효과와 변동성 때문에 수익이 2배에서 벗어난다. 횡보장에서는 오히려 마이너스가 날 수 있다.</p>
+<h2>레버리지/인버스/일반 ETF, 뭐가 다를까</h2>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>구분</th>
+<th>추종 방향</th>
+<th>배율</th>
+<th>예시 종목</th>
+<th>하루 이상 보유 시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>일반 ETF</td>
+<td>지수와 같은 방향</td>
+<td>1배</td>
+<td>KODEX 200 (069500)</td>
+<td>지수 수익률에 근접</td>
+</tr>
+<tr>
+<td>레버리지 ETF</td>
+<td>지수와 같은 방향</td>
+<td>2배</td>
+<td>KODEX 레버리지 (122630)</td>
+<td>변동성 클수록 괴리 발생</td>
+</tr>
+<tr>
+<td>인버스 ETF</td>
+<td>지수와 반대 방향</td>
+<td>-1배</td>
+<td>KODEX 인버스 (114800)</td>
+<td>지수 하락 시 수익</td>
+</tr>
+<tr>
+<td>곱버스 ETF</td>
+<td>지수와 반대 방향</td>
+<td>-2배</td>
+<td>KODEX 200선물인버스2X (252670)</td>
+<td>레버리지보다 변동성 손실 더 큼</td>
+</tr>
+</tbody>
+</table>
+<p>중요한 건 레버리지 ETF가 추종하는 ‘2배’가 <b>일간 수익률</b> 기준이라는 점이다. 오늘 지수가 1% 오르면 펀드는 2% 오르도록 설계되어 있다. 문제는 이걸 하루씩 쌓아가다 보면 복리 효과로 누적 수익률이 단순 2배가 아니게 된다.</p>
+<h2>구체적인 숫자로 보면</h2>
+<p>코스피200이 다음과 같이 움직였다고 가정해보자.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>날짜</th>
+<th>코스피200 등락률</th>
+<th>레버리지 ETF (2배)</th>
+<th>일반 ETF (1배)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1일차</td>
+<td>+2.0%</td>
+<td>+4.0%</td>
+<td>+2.0%</td>
+</tr>
+<tr>
+<td>2일차</td>
+<td>-1.5%</td>
+<td>-3.0%</td>
+<td>-1.5%</td>
+</tr>
+<tr>
+<td>3일차</td>
+<td>+1.0%</td>
+<td>+2.0%</td>
+<td>+1.0%</td>
+</tr>
+<tr>
+<td>4일차</td>
+<td>-0.5%</td>
+<td>-1.0%</td>
+<td>-0.5%</td>
+</tr>
+<tr>
+<td>5일차</td>
+<td>+1.5%</td>
+<td>+3.0%</td>
+<td>+1.5%</td>
+</tr>
+<tr>
+<td><b>누적</b></td>
+<td><b>+2.47%</b></td>
+<td><b>+4.88%</b></td>
+<td><b>+2.47%</b></td>
+</tr>
+</tbody>
+</table>
+<p>올랐다 내렸다를 반복하는 장세에서는 이렇다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>날짜</th>
+<th>코스피200 등락률</th>
+<th>레버리지 ETF (2배)</th>
+<th>일반 ETF (1배)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1일차</td>
+<td>+3.0%</td>
+<td>+6.0%</td>
+<td>+3.0%</td>
+</tr>
+<tr>
+<td>2일차</td>
+<td>-2.5%</td>
+<td>-5.0%</td>
+<td>-2.5%</td>
+</tr>
+<tr>
+<td>3일차</td>
+<td>+2.0%</td>
+<td>+4.0%</td>
+<td>+2.0%</td>
+</tr>
+<tr>
+<td>4일차</td>
+<td>-1.8%</td>
+<td>-3.6%</td>
+<td>-1.8%</td>
+</tr>
+<tr>
+<td>5일차</td>
+<td>+1.0%</td>
+<td>+2.0%</td>
+<td>+1.0%</td>
+</tr>
+<tr>
+<td><b>누적</b></td>
+<td><b>+1.60%</b></td>
+<td><b>+3.03%</b></td>
+<td><b>+1.60%</b></td>
+</tr>
+</tbody>
+</table>
+<p>일반 ETF 누적 수익의 2배는 3.20%지만, 실제 레버리지 ETF는 3.03%다. 오르내림이 심할수록 이 차이는 더 커진다.</p>
+<h2>횡보장이 가장 무섭다</h2>
+<p>레버리지 ETF에 가장 안 좋은 건 방향성 없는 횡보장이다. 지수가 제자리로 돌아와도 레버리지 ETF는 손실이 난다.</p>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>날짜</th>
+<th>코스피200</th>
+<th>레버리지 ETF</th>
+<th>지수 (기준=100)</th>
+<th>레버리지 ETF 잔고</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>시작</td>
+<td>&#8211;</td>
+<td>&#8211;</td>
+<td>100.00</td>
+<td>100.00</td>
+</tr>
+<tr>
+<td>1일차</td>
+<td>+5.0%</td>
+<td>+10.0%</td>
+<td>105.00</td>
+<td>110.00</td>
+</tr>
+<tr>
+<td>2일차</td>
+<td>-4.76%</td>
+<td>-9.52%</td>
+<td>100.00</td>
+<td>99.52</td>
+</tr>
+</tbody>
+</table>
+<p>지수는 100으로 돌아왔다. 그런데 레버리지 ETF는 99.52다. 2일 만에 0.48%가 증발했다. 이런 현상을 변동성 감소(volatility decay)라고 부른다.</p>
+<p>상승장이 길게 이어지면 레버리지 ETF는 2배 이상의 수익을 낼 수도 있다. 복리가 유리하게 작용하기 때문이다. 반대로 하락장이면 손실도 2배보다 커질 수 있다.</p>
+<h2>수수료도 2배 이상이다</h2>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>ETF</th>
+<th>총보수</th>
+<th>기초자산</th>
+<th>연간 예상 비용 (100만원 기준)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>KODEX 200</td>
+<td>0.15%</td>
+<td>KOSPI200 현물</td>
+<td>1,500원</td>
+</tr>
+<tr>
+<td>KODEX 레버리지</td>
+<td>0.64%</td>
+<td>KOSPI200 선물</td>
+<td>6,400원</td>
+</tr>
+<tr>
+<td>KODEX 인버스</td>
+<td>0.64%</td>
+<td>KOSPI200 선물</td>
+<td>6,400원</td>
+</tr>
+<tr>
+<td>KODEX 200선물인버스2X</td>
+<td>0.82%</td>
+<td>KOSPI200 선물</td>
+<td>8,200원</td>
+</tr>
+</tbody>
+</table>
+<p>레버리지·인버스 ETF는 선물을 이용해 배율을 만들기 때문에 운용보수가 일반 ETF보다 4~5배 높다. 여기에 선물 롤오버 비용까지 들어간다.</p>
+<h2>냉정하게 보면</h2>
+<p>레버리지 ETF가 유리한 경우는 방향성이 뚜렷한 장세다. 매일 비슷한 방향으로 움직이면 복리가 유리하게 작용해 2배 이상 수익이 날 수 있다.</p>
+<p>반대로 횡보장이나 변동성이 큰 장세에서는 ‘녹는다’. 지수가 제자리인데 ETF 잔고만 깎이는 경험을 하게 된다.</p>
+<p>단타 트레이더에게는 유용한 도구다. 오늘 하루만 들고 있을 거라면 변동성 감소를 걱정할 필요가 없다. 하지만 “사두고 잊자”는 전략에는 절대 어울리지 않는다.</p>
+<h2>체크할 리스크</h2>
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+<thead>
+<tr>
+<th>리스크</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>변동성 감소</td>
+<td>등락 반복 시 지수가 제자리여도 손실 발생</td>
+</tr>
+<tr>
+<td>높은 보수</td>
+<td>일반 ETF 대비 4~5배 운용보수 + 선물 롤오버 비용</td>
+</tr>
+<tr>
+<td>괴리율</td>
+<td>장기 보유 시 추종 배율에서 크게 벗어날 수 있음</td>
+</tr>
+<tr>
+<td>하락장 리스크</td>
+<td>하락장에서는 손실도 2배. 하루에 -10% 이상 날 수도 있음</td>
+</tr>
+<tr>
+<td>청산 가능성</td>
+<td>순자산이 일정 이하로 떨어지면 상장폐지 가능</td>
+</tr>
+</tbody>
+</table>
+<h2>한 줄 정리</h2>
+<p>레버리지 ETF는 하루 단위 트레이딩 도구다. 내일 지수가 오를 거라고 확신할 때 사는 거지, 내년에 오를 거라고 생각해서 사두는 물건이 아니다. 변동성 감소와 높은 보수라는 두 가지 비용을 내면서 2배의 꿈을 쫓고 있다는 걸 잊으면 안 된다.</p>
+<p style="margin-top: 30px;color: #666;font-size: 13px">⚠️ 이 글은 특정 ETF 매매를 권유하지 않습니다. 투자 판단과 그에 따른 결과는 투자자 본인에게 있습니다. 레버리지 상품은 원금 손실 가능성이 매우 높으니, 자신의 투자 성향과 리스크 감내 수준을 먼저 확인하시길 바랍니다.</p>
+<p><!-- chart-fix-auto:start --></p>
+<h2>관련 종목 차트 보강</h2>
+<p><strong>뭐가 다를까 구분 추종 방향 배율 예시 종목 하루 이상 보유 시 일반 ETF 지수와 같은 방향 1배 KODEX 200(069500)</strong></p>
+<figure><img loading="lazy"  decoding="async" src="https://webchart.thinkpool.com/2022Mobile/Stock1Day/A069500.png" alt="관련 종목 일봉 차트" style="max-width:100%;height:auto"></figure>
+<p><strong>지수 수익률에 근접 레버리지 ETF 지수와 같은 방향 2배 KODEX 레버리지(122630)</strong></p>
+<figure><img loading="lazy"  decoding="async" src="https://webchart.thinkpool.com/2022Mobile/Stock1Day/A122630.png" alt="관련 종목 일봉 차트" style="max-width:100%;height:auto"></figure>
+<p><strong>변동성 클수록 괴리 발생 인버스 ETF 지수와 반대 방향 -1배 KODEX 인버스(114800)</strong></p>
+<figure><img loading="lazy"  decoding="async" src="https://webchart.thinkpool.com/2022Mobile/Stock1Day/A114800.png" alt="관련 종목 일봉 차트" style="max-width:100%;height:auto"></figure>
+<p><strong>지수 하락 시 수익 곱버스 ETF 지수와 반대 방향 -2배 KODEX 200선물인버스2X(252670)</strong></p>
+<figure><img loading="lazy"  decoding="async" src="https://webchart.thinkpool.com/2022Mobile/Stock1Day/A252670.png" alt="관련 종목 일봉 차트" style="max-width:100%;height:auto"></figure>
+<p><!-- chart-fix-auto:end --></p>
+
+    <p class="disclaimer">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다.<br>최초 발행 2026-06-24 · 최종 수정 2026-07-06 · 작성 SUPERSTOCK 편집부</p>
+    <nav class="prevnext" aria-label="이전 다음 글"><a href="/stock-analysis/셀트리온-장중-15-9만원까지-밀렸다-17-2만원으로-반등/"><span class="dir">← 이전 글</span>🚗셀트리온, 장중 15.9만원까지 밀렸다 17.2만원으로 반등 — 저점 확인한 걸까?</a><a href="/beginner-guide/주식-주문-지정가와-시장가-상황별로-뭐가-더-나은/" style="text-align:right"><span class="dir">다음 글 →</span>💾주식 주문, 지정가와 시장가 — 상황별로 뭐가 더 나은가</a></nav>
+  </article>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div><strong>SUPERSTOCK</strong> · 주식시장에서 구별해야 할 진짜를 찾아냅니다<br>
+    <a href="/market-catalysts/">전체 글</a></div>
+    <p class="fine">본 사이트의 모든 콘텐츠는 정보 제공을 목적으로 하며 특정 종목의 매수·매도 추천이 아닙니다. 투자의 최종 판단과 책임은 투자자 본인에게 있습니다. © 2026 SUPERSTOCK</p>
+  </div>
+</footer>
+<script>
+document.getElementById("themeBtn").addEventListener("click",function(){var r=document.documentElement;
+var n=(r.dataset.theme||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark"?"light":"dark";
+r.dataset.theme=n;try{localStorage.setItem("theme",n);}catch(e){}});
+</script>
+</body>
+</html>
