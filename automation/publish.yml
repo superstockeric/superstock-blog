@@ -64,4 +64,14 @@ jobs:
             echo "CLOUDFLARE_API_TOKEN 미등록 — 배포 건너뜀 (수집·커밋은 정상 완료)"
             exit 0
           fi
+          # workers.dev 하위도메인 미등록 계정이면 1회 자동 등록
+          API="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain"
+          CUR=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$API")
+          if ! echo "$CUR" | grep -q '"subdomain":"[a-z0-9-]'; then
+            echo "workers.dev 하위도메인 등록 시도: superstockeric"
+            curl -s -X PUT -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{"subdomain":"superstockeric"}' "$API"
+            echo
+          fi
           npx --yes wrangler@4.107.0 deploy
