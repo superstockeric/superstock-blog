@@ -12,7 +12,8 @@ if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
 }
 
 # 1. GitHub 로그인 (브라우저 인증 — 1회만)
-gh auth status 2>$null
+#    (PS5.1에서 네이티브 stderr 리다이렉트는 오류로 승격되므로 cmd 경유로 확인)
+cmd /c "gh auth status >nul 2>&1"
 if ($LASTEXITCODE -ne 0) {
   Write-Host "GitHub 로그인이 필요합니다. 브라우저가 열립니다..." -ForegroundColor Yellow
   gh auth login --hostname github.com --git-protocol https --web
@@ -22,7 +23,7 @@ Write-Host "로그인 계정: $owner" -ForegroundColor Green
 
 # 2. public 리포 생성 + 푸시 (Actions 무제한 무료는 public 전제)
 Set-Location "D:\superstock.blog"
-$exists = gh repo view "$owner/$repo" 2>$null
+cmd /c "gh repo view $owner/$repo >nul 2>&1"
 if ($LASTEXITCODE -ne 0) {
   gh repo create $repo --public --source . --remote origin --push --description "가격이 움직인 이유를 기록하는 주식 분석 노트"
 } else {
@@ -66,7 +67,7 @@ if ($cftPlain) {
 }
 
 # 5. 첫 실행 트리거
-gh workflow run superstock-auto-publish --repo "$owner/$repo" 2>$null
+cmd /c "gh workflow run superstock-auto-publish --repo $owner/$repo >nul 2>&1"
 Write-Host ""
 Write-Host "완료! 이후는 30분마다 자동으로 돕니다." -ForegroundColor Green
 Write-Host "실행 확인: https://github.com/$owner/$repo/actions"
