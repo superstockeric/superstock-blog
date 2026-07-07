@@ -3,3 +3,6 @@ __pycache__/
 .env
 node_modules/
 .wrangler/
+
+# 내부 전략 문서 — public 리포에 올리지 않음 (로컬 전용)
+docs/
