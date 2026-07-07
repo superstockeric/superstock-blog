@@ -99,7 +99,8 @@ r.dataset.theme=n;try{{localStorage.setItem("theme",n);}}catch(e){{}}}});
 
 def load():
     posts = []
-    for f in sorted(glob.glob(os.path.join(ROOT, "content/raw/posts-*.json"))):
+    for f in sorted(glob.glob(os.path.join(ROOT, "content/raw/posts-*.json"))
+                    + glob.glob(os.path.join(ROOT, "content/raw/sync-*.json"))):
         posts += json.load(open(f, encoding="utf-8"))
     cats = {c["id"]: c for c in json.load(open(os.path.join(ROOT, "content/raw/categories.json"), encoding="utf-8"))}
     seen, out = set(), []
