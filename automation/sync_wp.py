@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
 """mystocknote(WP)의 새 글을 30분마다 가져와 content/raw에 누적 — build_site.py가 이어서 전체 재생성"""
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
 import json, glob, os, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

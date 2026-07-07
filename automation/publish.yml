@@ -46,9 +46,12 @@ jobs:
         # 의존성이 필요해지면: requirements.txt + `pip install --require-hashes`
         run: python automation/collect_and_publish.py
 
-      - name: WP 새 글 동기화 + 사이트 재생성
+      - name: WP 새 글 동기화 + 재작성 + 사이트 재생성
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: |
           python automation/sync_wp.py
+          python automation/rewrite_posts.py
           python automation/build_site.py
 
       - name: 커밋 (변경분 있을 때만)

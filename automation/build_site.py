@@ -5,6 +5,11 @@ superstock 사이트 생성기 — content/raw/*.json(WP 추출본) → 정적 H
       /<카테고리>/index.html, /index.html(홈), /sitemap.xml
 실행: python automation/build_site.py  (리포 루트 기준)
 """
+import sys
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
 import json, glob, os, re, html, sys
 from urllib.parse import unquote, urlparse
 
@@ -103,6 +108,10 @@ def load():
                     + glob.glob(os.path.join(ROOT, "content/raw/sync-*.json"))):
         posts += json.load(open(f, encoding="utf-8"))
     cats = {c["id"]: c for c in json.load(open(os.path.join(ROOT, "content/raw/categories.json"), encoding="utf-8"))}
+    rewritten = {}
+    for f in glob.glob(os.path.join(ROOT, "content/rewritten/*.json")):
+        r = json.load(open(f, encoding="utf-8"))
+        rewritten[r["id"]] = r
     seen, out = set(), []
     for p in posts:
         if p["id"] in seen:
@@ -111,14 +120,16 @@ def load():
         path = unquote(urlparse(p["link"]).path)  # /category/slug/
         cid = next((c for c in p.get("categories", []) if c in cats and cats[c]["count"] > 0), None)
         cat = cats.get(cid, {"slug": "market-catalysts", "name": "오늘의 시장재료"})
-        title = strip_tags(html.unescape(p["title"]["rendered"]))
-        content = clean_content(p["content"]["rendered"])
+        rw = rewritten.get(p["id"])
+        title = rw["title"] if rw else strip_tags(html.unescape(p["title"]["rendered"]))
+        content = clean_content(rw["html"] if rw else p["content"]["rendered"])
         text = strip_tags(content)
         out.append({
             "path": path, "title": title,
             "date": p["date"][:10], "time": p["date"][11:16], "modified": p["modified"][:10],
             "iso": p["date"], "iso_mod": p["modified"],
-            "excerpt": re.sub(r"상태:\s*[a-z_]+\s*", "", strip_tags(html.unescape(p["excerpt"]["rendered"])))[:120],
+            "excerpt": (text[:120] if rw else
+                        re.sub(r"상태:\s*[a-z_]+\s*", "", strip_tags(html.unescape(p["excerpt"]["rendered"])))[:120]),
             "content": content, "cat_slug": cat["slug"], "cat_name": cat["name"],
             "minutes": max(1, round(len(text) / 600)),
         })
