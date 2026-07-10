@@ -1,0 +1,702 @@
+[
+ {
+  "type": "disclosure",
+  "corp": "세진티에스",
+  "title": "기타시장안내(관리종목지정우려종목)              (시가총액 200억원 미달)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710901017"
+ },
+ {
+  "type": "disclosure",
+  "corp": "코맥스",
+  "title": "단기차입금증가결정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710901005"
+ },
+ {
+  "type": "disclosure",
+  "corp": "좋은사람들",
+  "title": "주식병합결정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900988"
+ },
+ {
+  "type": "disclosure",
+  "corp": "좋은사람들",
+  "title": "주요사항보고서(감자결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000712"
+ },
+ {
+  "type": "disclosure",
+  "corp": "육일씨엔에쓰",
+  "title": "기타시장안내(관리종목지정우려종목)              (시가총액 200억원 미달)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900991"
+ },
+ {
+  "type": "disclosure",
+  "corp": "좋은사람들",
+  "title": "주주명부폐쇄기간또는기준일설정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900984"
+ },
+ {
+  "type": "disclosure",
+  "corp": "좋은사람들",
+  "title": "주주총회소집결의              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900982"
+ },
+ {
+  "type": "disclosure",
+  "corp": "하나30호스팩",
+  "title": "기타시장안내              (주권 상장폐지 우려 예고)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900990"
+ },
+ {
+  "type": "disclosure",
+  "corp": "이엔셀",
+  "title": "[기재정정]투자판단관련주요경영사항(임상시험계획변경승인)              (샤르코마리투스(CharcotMarieTooth disease, CMT) 1A형 환자를 대상으로 EN001의 유효성 및 안전성을 평가하기 위해 1b/2a상 임상시험계획 변경승인)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900974"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한지주",
+  "title": "[기재정정]주식소각결정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800969"
+ },
+ {
+  "type": "disclosure",
+  "corp": "팸텍",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000713"
+ },
+ {
+  "type": "disclosure",
+  "corp": "성호전자",
+  "title": "기타경영사항(자율공시)              (제14회차 신주인수권부사채 만기전 취득 후 재매각 결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900979"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한카드이천이십오의일유동화전문유한회사",
+  "title": "[기재정정]자산양도등의등록신청서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000583"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한카드이천이십사의일유동화전문유한회사",
+  "title": "[기재정정]자산양도등의등록신청서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000309"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한카드이천이십육의일유동화전문유한회사",
+  "title": "[기재정정]자산양도등의등록신청서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000288"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한카드이천이십삼의일유동화전문유한회사",
+  "title": "[기재정정]자산양도등의등록신청서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000283"
+ },
+ {
+  "type": "disclosure",
+  "corp": "뉴파워프라즈마",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000711"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한알파리츠",
+  "title": "기타경영사항(자율공시)              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800967"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한카드이천이십이의이유동화전문유한회사",
+  "title": "[기재정정]자산양도등의등록신청서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000276"
+ },
+ {
+  "type": "disclosure",
+  "corp": "스타코링크",
+  "title": "주권매매거래정지해제              (상장폐지에 따른 정리매매 개시)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900978"
+ },
+ {
+  "type": "disclosure",
+  "corp": "스타코링크",
+  "title": "기타시장안내              (상장폐지결정 등 효력정지 가처분 신청 기각에 따른 정리매매절차 재개)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900976"
+ },
+ {
+  "type": "disclosure",
+  "corp": "산은캐피탈",
+  "title": "투자설명서(일괄신고)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000710"
+ },
+ {
+  "type": "disclosure",
+  "corp": "빗썸홀딩스",
+  "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(대표회사)]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000709"
+ },
+ {
+  "type": "disclosure",
+  "corp": "코퍼스코리아",
+  "title": "소송등의판결ㆍ결정              (신주발행금지 가처분)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900966"
+ },
+ {
+  "type": "disclosure",
+  "corp": "산은캐피탈",
+  "title": "일괄신고추가서류",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000708"
+ },
+ {
+  "type": "disclosure",
+  "corp": "더코디",
+  "title": "[기재정정]주요사항보고서(전환사채권발행결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000698"
+ },
+ {
+  "type": "disclosure",
+  "corp": "부국증권",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000707"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한울앤제주",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000706"
+ },
+ {
+  "type": "disclosure",
+  "corp": "디에이치엑스컴퍼니",
+  "title": "불성실공시법인지정예고              (공시번복)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900965"
+ },
+ {
+  "type": "disclosure",
+  "corp": "아미노로직스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000705"
+ },
+ {
+  "type": "disclosure",
+  "corp": "하나36호스팩",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000704"
+ },
+ {
+  "type": "disclosure",
+  "corp": "빗썸나눔",
+  "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000703"
+ },
+ {
+  "type": "disclosure",
+  "corp": "현대인베스트먼트자산운용",
+  "title": "계열금융회사의약관에의한금융거래-[유가증권-수익증권]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000702"
+ },
+ {
+  "type": "disclosure",
+  "corp": "삼보모터스",
+  "title": "[기재정정]주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000701"
+ },
+ {
+  "type": "disclosure",
+  "corp": "나루",
+  "title": "[기재정정]감사보고서 (2025.12)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000700"
+ },
+ {
+  "type": "disclosure",
+  "corp": "알티캐스트",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000699"
+ },
+ {
+  "type": "disclosure",
+  "corp": "알티캐스트",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000697"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한울반도체",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000696"
+ },
+ {
+  "type": "disclosure",
+  "corp": "베노티앤알",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000695"
+ },
+ {
+  "type": "disclosure",
+  "corp": "폴라리스AI파마",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000694"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한미약품",
+  "title": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000693"
+ },
+ {
+  "type": "disclosure",
+  "corp": "아이디어허브",
+  "title": "연결감사보고서 (2025.12)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000692"
+ },
+ {
+  "type": "disclosure",
+  "corp": "아이디어허브",
+  "title": "감사보고서 (2025.12)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000691"
+ },
+ {
+  "type": "disclosure",
+  "corp": "지아이이노베이션",
+  "title": "투자판단관련주요경영사항(임상시험계획변경승인)              (GI108 제1/2a상 임상시험계획 한국식품의약품안전처 변경승인)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900892"
+ },
+ {
+  "type": "disclosure",
+  "corp": "파인테크닉스",
+  "title": "주주총회소집결의              (임시주주총회)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900946"
+ },
+ {
+  "type": "disclosure",
+  "corp": "팬텍",
+  "title": "감사보고서 (2025.12)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000690"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한국피아이엠",
+  "title": "주요사항보고서(전환사채권발행결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000677"
+ },
+ {
+  "type": "disclosure",
+  "corp": "티로보틱스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000689"
+ },
+ {
+  "type": "disclosure",
+  "corp": "파인테크닉스",
+  "title": "주주명부폐쇄기간또는기준일설정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900951"
+ },
+ {
+  "type": "disclosure",
+  "corp": "에이플러스에셋",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000688"
+ },
+ {
+  "type": "disclosure",
+  "corp": "경남제약",
+  "title": "[기재정정]증권발행결과(자율공시)              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900949"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한화투자증권",
+  "title": "증권발행실적보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000687"
+ },
+ {
+  "type": "disclosure",
+  "corp": "크리스탈신소재",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000686"
+ },
+ {
+  "type": "disclosure",
+  "corp": "우듬지팜",
+  "title": "임시주주총회결과              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900930"
+ },
+ {
+  "type": "disclosure",
+  "corp": "이지스밸류플러스리츠",
+  "title": "부동산투자회사자금차입              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800905"
+ },
+ {
+  "type": "disclosure",
+  "corp": "크레오에스지",
+  "title": "[기재정정]최대주주변경을수반하는주식담보제공계약체결              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900885"
+ },
+ {
+  "type": "disclosure",
+  "corp": "동륭실업",
+  "title": "[기재정정]대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000685"
+ },
+ {
+  "type": "disclosure",
+  "corp": "에이플러스에셋",
+  "title": "최대주주등소유주식변동신고서              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800944"
+ },
+ {
+  "type": "disclosure",
+  "corp": "삼보모터스",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000684"
+ },
+ {
+  "type": "disclosure",
+  "corp": "서진시스템",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000683"
+ },
+ {
+  "type": "disclosure",
+  "corp": "크리스탈신소재",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000682"
+ },
+ {
+  "type": "disclosure",
+  "corp": "삼성증권",
+  "title": "증권발행실적보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000681"
+ },
+ {
+  "type": "disclosure",
+  "corp": "넥스트아이",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000680"
+ },
+ {
+  "type": "disclosure",
+  "corp": "성호전자",
+  "title": "[기재정정]최대주주변경을수반하는주식담보제공계약체결              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710900920"
+ },
+ {
+  "type": "disclosure",
+  "corp": "이지스밸류플러스리츠",
+  "title": "부동산투자회사증권취득              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800907"
+ },
+ {
+  "type": "disclosure",
+  "corp": "티비씨",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000679"
+ },
+ {
+  "type": "disclosure",
+  "corp": "삼성전자",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000678"
+ },
+ {
+  "type": "disclosure",
+  "corp": "까뮤이앤씨",
+  "title": "타인에대한채무보증결정              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800933"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한진",
+  "title": "증권신고서(채무증권)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000676"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한울소재과학",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000675"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한지주",
+  "title": "신탁계약해지결과보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000673"
+ },
+ {
+  "type": "disclosure",
+  "corp": "KG이니시스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000672"
+ },
+ {
+  "type": "disclosure",
+  "corp": "넥스트아이",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000670"
+ },
+ {
+  "type": "disclosure",
+  "corp": "신한지주",
+  "title": "주요사항보고서(자기주식취득신탁계약해지결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000637"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한울소재과학",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000668"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한화엔진",
+  "title": "단일판매ㆍ공급계약체결              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800910"
+ },
+ {
+  "type": "disclosure",
+  "corp": "세종티에프",
+  "title": "감사보고서 (2026.03)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000667"
+ },
+ {
+  "type": "disclosure",
+  "corp": "DB증권",
+  "title": "계열금융회사의약관에의한금융거래-[유가증권-채권]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000666"
+ },
+ {
+  "type": "disclosure",
+  "corp": "자비스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000665"
+ },
+ {
+  "type": "disclosure",
+  "corp": "DB증권",
+  "title": "계열금융회사의약관에의한금융거래-[장단기대여]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000664"
+ },
+ {
+  "type": "disclosure",
+  "corp": "LX홀딩스",
+  "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000663"
+ },
+ {
+  "type": "disclosure",
+  "corp": "경남제약",
+  "title": "[기재정정]주요사항보고서(유상증자결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000638"
+ },
+ {
+  "type": "disclosure",
+  "corp": "프리티",
+  "title": "[기재정정]주주총회소집결의              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800908"
+ },
+ {
+  "type": "disclosure",
+  "corp": "SYTS",
+  "title": "사외이사의선임ㆍ해임또는중도퇴임에관한신고",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000661"
+ },
+ {
+  "type": "disclosure",
+  "corp": "DB증권",
+  "title": "계열금융회사의약관에의한금융거래-[유가증권-수익증권]",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000660"
+ },
+ {
+  "type": "disclosure",
+  "corp": "대신한화밸류애드제1호일반사모부동산투자회사",
+  "title": "주요주주의주식보유변동",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000659"
+ },
+ {
+  "type": "disclosure",
+  "corp": "오에스피",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000658"
+ },
+ {
+  "type": "disclosure",
+  "corp": "풍산",
+  "title": "최대주주등소유주식변동신고서              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800915"
+ },
+ {
+  "type": "disclosure",
+  "corp": "SYTS",
+  "title": "임시주주총회결과              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800864"
+ },
+ {
+  "type": "disclosure",
+  "corp": "시노펙스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000657"
+ },
+ {
+  "type": "disclosure",
+  "corp": "주연테크",
+  "title": "투자유의안내              ",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710800848"
+ },
+ {
+  "type": "disclosure",
+  "corp": "프리티",
+  "title": "주요사항보고서(감자결정)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000623"
+ },
+ {
+  "type": "disclosure",
+  "corp": "덴티스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000655"
+ },
+ {
+  "type": "disclosure",
+  "corp": "LX홀딩스",
+  "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000654"
+ },
+ {
+  "type": "disclosure",
+  "corp": "유나이티드",
+  "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000653"
+ },
+ {
+  "type": "disclosure",
+  "corp": "엑스큐어",
+  "title": "주식등의대량보유상황보고서(약식)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000652"
+ },
+ {
+  "type": "disclosure",
+  "corp": "리브스메드",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000651"
+ },
+ {
+  "type": "disclosure",
+  "corp": "한미사이언스",
+  "title": "주식등의대량보유상황보고서(일반)",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000650"
+ },
+ {
+  "type": "disclosure",
+  "corp": "티비씨",
+  "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000649"
+ },
+ {
+  "type": "disclosure",
+  "corp": "유나이티드",
+  "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+  "time": "20260710",
+  "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260710000648"
+ }
+]
